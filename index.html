@@ -4,9 +4,64 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>tailwind-css</title>
+    <script src="https://cdn.tailwindcss.com"></script>
 </head>
 <body>
-    
+    <header>
+        <nav class="flex justify-between max-w-7xl mx-auto px-3 py-5">
+            <div>
+                <h1 class="text-2xl font-bold">JHAKA NAKA PRODUCTION</h1>
+            </div>
+            <ul class="flex gap-5">
+                <li>ABOUT US</li>
+                <li>MOVIES</li>
+                <li>SERVICES</li>
+            </ul>
+        </nav>
+        <section class="bg-[url('images/banner.jpg')] h-screen bg-cover">
+            <div class=" flex items-center max-w-7xl mx-auto h-full w-full">
+                <div class="">
+                    <h1 class="text-white">MOVIE PRODUCTION STUDIO</h1>
+                <h1 class="font-bold text-6xl text-white">FILMS MADE TO</h1>
+                <h1 class="font-bold text-6xl text-yellow-500">PERFECTION</h1>
+                <p class="text-white max-w-lg">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut  elit tellus, 
+                    luctus nec ullamcorper mattis, pulvinar dapibus leo.</p>
+                    <button class="border-2 rounded-lg border-white text-white py-2 px-4 mt-3">DISCOVER MORE</button>
+                </div>
+            </div>
+        </section>
+    </header>
+    <main class="max-w-7xl mx-auto my-20 border-2 border-black">
+        <div class="flex items-center p-5">
+            <div class="w-1/2">
+                <img src="images/camera-man.jpg" alt="">
+            </div>
+            <div class="w-1/2 p-5">
+                <h3 class="font-bold">ABOUT US</h3>
+                <h1 class="font-bold text-5xl">FILMING EXPERIENCE</h1>
+                <h1 class="font-bold text-5xl">JUST GOT BETTER</h1>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Doloribus aut veniam fugit accusamus nemo sapiente sed vitae, ipsum molestiae. Inventore?</p>
+                <button class="border-2 rounded-lg border-black text-black py-2 px-4 mt-3">DISCOVER MORE</button>
+            </div>
+        </div>
+        <div class="grid grid-cols-3 py-10 px-3">
+            <div>
+                <div class="border-4 border-black w-3/4"></div>
+                <h2 class="font-semibold text-5xl">OUR VISION</h2>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dicta aperiam delectus atque iure blanditiis itaque consequatur id perspiciatis modi fugit.</p>
+            </div>
+            <div>
+                <div class="border-4 border-black w-3/4"></div>
+                <h2 class="font-semibold text-5xl">OUR MISSION</h2>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dicta aperiam delectus atque iure blanditiis itaque consequatur id perspiciatis modi fugit.</p>
+            </div>
+            <div>
+                <div class="border-4 border-black w-3/4"></div>
+                <h2 class="font-semibold text-5xl">OUR MOTTO</h2>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dicta aperiam delectus atque iure blanditiis itaque consequatur id perspiciatis modi fugit.</p>
+            </div>
+        </div>
+    </main>
 </body>
 </html>
